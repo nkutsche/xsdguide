@@ -315,6 +315,17 @@
         
     </xsl:template>
     
+    <!-- 
+        copies all nodes:
+    -->
+    <xsl:template match="node() | @*" mode="d2t:mergeXSDtypes">
+        <xsl:copy>
+            <xsl:apply-templates select="@*" mode="#current"/>
+            <xsl:apply-templates select="node()" mode="#current"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    
     <xsl:function name="d2t:defComplexType" as="element(xs:complexType)">
         <xsl:param name="name" as="xs:string"/>
         <xsl:sequence select="d2t:defComplexType($name, '')"/>
