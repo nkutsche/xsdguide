@@ -15,7 +15,7 @@ The XSD Guide is tested with
 
 1. Please make sure Oxygen XML Editor is installed.
 1. Use the addon function of Oxygen (Help > Install new add-ons...)
-1. Use the following URL as "update site": [https://raw.githubusercontent.com/octavianN/thePowerOfSQF/Samples/xsdguide/build/extensions.xml](https://raw.githubusercontent.com/octavianN/thePowerOfSQF/Samples/xsdguide/build/extensions.xml)
+1. Use the following URL as "update site": [https://raw.githubusercontent.com/nkutsche/xsdguide/master/build/extensions.xml](https://raw.githubusercontent.com/nkutsche/xsdguide/master/build/extensions.xml)
 1. Istall the XSD Guide framework and follow the installation guide.
 
 ### Escali Oxygen Plugin
