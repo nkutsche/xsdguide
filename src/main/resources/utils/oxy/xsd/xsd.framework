@@ -1,15 +1,230 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<serialized version="20.1" xml:space="preserve">
+<serialized version="20.0" xml:space="preserve">
 	<serializableOrderedMap>
 		<entry>
 			<String>document.types</String>
 			<documentTypeDescriptor-array>
 				<documentTypeDescriptor>
 					<field name="extensionPatch">
-						<null/>
+						<documentTypeDescriptorPatch>
+							<field name="patchList">
+								<list>
+									<poPatch>
+										<field name="fieldPath">
+											<String>name</String>
+										</field>
+										<field name="index">
+											<Integer>-1</Integer>
+										</field>
+										<field name="value">
+											<String>Guide for XSD development</String>
+										</field>
+										<field name="patchHandling">
+											<String>set</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>templatesLocations</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>templatesLocations</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<String>${frameworkDir}/templates</String>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>description</String>
+										</field>
+										<field name="index">
+											<Integer>-1</Integer>
+										</field>
+										<field name="value">
+											<String>SQF based guide for XSD development as Oxygen framework</String>
+										</field>
+										<field name="patchHandling">
+											<String>set</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>validationScenarios</String>
+										</field>
+										<field name="index">
+											<Integer>3</Integer>
+										</field>
+										<field name="value">
+											<validationScenario>
+												<field name="pairs">
+													<list>
+														<validationUnit>
+															<field name="validationType">
+																<validationUnitType>
+																	<field name="validationInputType">
+																		<String>text/xml</String>
+																	</field>
+																</validationUnitType>
+															</field>
+															<field name="url">
+																<String>${currentFileURL}</String>
+															</field>
+															<field name="validationEngine">
+																<validationEngine>
+																	<field name="engineType">
+																		<String>Xerces</String>
+																	</field>
+																	<field name="allowsAutomaticValidation">
+																		<Boolean>true</Boolean>
+																	</field>
+																</validationEngine>
+															</field>
+															<field name="allowAutomaticValidation">
+																<Boolean>true</Boolean>
+															</field>
+															<field name="extensions">
+																<null/>
+															</field>
+															<field name="validationSchema">
+																<null/>
+															</field>
+														</validationUnit>
+														<validationUnit>
+															<field name="validationType">
+																<validationUnitType>
+																	<field name="validationInputType">
+																		<String>text/xml</String>
+																	</field>
+																</validationUnitType>
+															</field>
+															<field name="url">
+																<String>${currentFileURL}</String>
+															</field>
+															<field name="validationEngine">
+																<validationEngine>
+																	<field name="engineType">
+																		<String>&lt;Default engine></String>
+																	</field>
+																	<field name="allowsAutomaticValidation">
+																		<Boolean>true</Boolean>
+																	</field>
+																</validationEngine>
+															</field>
+															<field name="allowAutomaticValidation">
+																<Boolean>true</Boolean>
+															</field>
+															<field name="extensions">
+																<null/>
+															</field>
+															<field name="validationSchema">
+																<validationUnitSchema>
+																	<field name="dtdSchemaPublicID">
+																		<null/>
+																	</field>
+																	<field name="schematronPhase">
+																		<null/>
+																	</field>
+																	<field name="type">
+																		<Integer>7</Integer>
+																	</field>
+																	<field name="uri">
+																		<String>${framework}/src/schema/xsd.sch</String>
+																	</field>
+																</validationUnitSchema>
+															</field>
+														</validationUnit>
+													</list>
+												</field>
+												<field name="type">
+													<String>Validation_scenario</String>
+												</field>
+												<field name="name">
+													<String>Guide for XSD development - Validation</String>
+												</field>
+											</validationScenario>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>defaultValidationScenarios</String>
+										</field>
+										<field name="index">
+											<Integer>-1</Integer>
+										</field>
+										<field name="value">
+											<list>
+												<String>Guide for XSD development - Validation</String>
+											</list>
+										</field>
+										<field name="patchHandling">
+											<String>set</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>priority</String>
+										</field>
+										<field name="index">
+											<Integer>-1</Integer>
+										</field>
+										<field name="value">
+											<Integer>3</Integer>
+										</field>
+										<field name="patchHandling">
+											<String>set</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+								</list>
+							</field>
+							<field name="extendedPersistentObjectKey">
+								<String>XML Schema</String>
+							</field>
+						</documentTypeDescriptorPatch>
 					</field>
 					<field name="name">
-						<String>Guide for XSD development</String>
+						<String>XML Schema</String>
 					</field>
 					<field name="schemaDescriptor">
 						<null/>
@@ -268,7 +483,7 @@
 						</String-array>
 					</field>
 					<field name="description">
-						<String>SQF based guide for XSD development as Oxygen framework</String>
+						<String>Match XML Schema documents to provide support for editing annotations. </String>
 					</field>
 					<field name="doctypeRules">
 						<documentTypeRule-array>
@@ -465,99 +680,10 @@
 									<String>Validate XML Schema with embedded Schematron</String>
 								</field>
 							</validationScenario>
-							<validationScenario>
-								<field name="pairs">
-									<list>
-										<validationUnit>
-											<field name="validationType">
-												<validationUnitType>
-													<field name="validationInputType">
-														<String>text/xsd</String>
-													</field>
-												</validationUnitType>
-											</field>
-											<field name="url">
-												<String>${currentFileURL}</String>
-											</field>
-											<field name="validationEngine">
-												<validationEngine>
-													<field name="engineType">
-														<String>Xerces</String>
-													</field>
-													<field name="allowsAutomaticValidation">
-														<Boolean>true</Boolean>
-													</field>
-												</validationEngine>
-											</field>
-											<field name="allowAutomaticValidation">
-												<Boolean>true</Boolean>
-											</field>
-											<field name="extensions">
-												<null/>
-											</field>
-											<field name="validationSchema">
-												<null/>
-											</field>
-										</validationUnit>
-										<validationUnit>
-											<field name="validationType">
-												<validationUnitType>
-													<field name="validationInputType">
-														<String>text/xml</String>
-													</field>
-												</validationUnitType>
-											</field>
-											<field name="url">
-												<String>${currentFileURL}</String>
-											</field>
-											<field name="validationEngine">
-												<validationEngine>
-													<field name="engineType">
-														<String>&lt;Default engine></String>
-													</field>
-													<field name="allowsAutomaticValidation">
-														<Boolean>true</Boolean>
-													</field>
-												</validationEngine>
-											</field>
-											<field name="allowAutomaticValidation">
-												<Boolean>true</Boolean>
-											</field>
-											<field name="extensions">
-												<null/>
-											</field>
-											<field name="validationSchema">
-												<validationUnitSchema>
-													<field name="dtdSchemaPublicID">
-														<null/>
-													</field>
-													<field name="schematronPhase">
-														<null/>
-													</field>
-													<field name="type">
-														<Integer>7</Integer>
-													</field>
-													<field name="uri">
-														<String>${framework}/src/schema/xsd.sch</String>
-													</field>
-												</validationUnitSchema>
-											</field>
-										</validationUnit>
-									</list>
-								</field>
-								<field name="type">
-									<String>Validation_scenario</String>
-								</field>
-								<field name="name">
-									<String>Guide for XSD development - Validation</String>
-								</field>
-							</validationScenario>
 						</validationScenario-array>
 					</field>
 					<field name="defaultValidationScenarios">
-						<list>
-							<String>Guide for XSD development - Validation</String>
-						</list>
+						<null/>
 					</field>
 					<field name="defaultTransformationScenarios">
 						<null/>
@@ -593,7 +719,7 @@
 						<null/>
 					</field>
 					<field name="priority">
-						<Integer>3</Integer>
+						<Integer>2</Integer>
 					</field>
 					<field name="xmlNodeCustomizerExtension">
 						<null/>
