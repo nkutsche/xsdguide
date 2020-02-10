@@ -92,7 +92,7 @@
 															<field name="validationType">
 																<validationUnitType>
 																	<field name="validationInputType">
-																		<String>text/xml</String>
+																		<String>text/any</String>
 																	</field>
 																</validationUnitType>
 															</field>
@@ -102,7 +102,7 @@
 															<field name="validationEngine">
 																<validationEngine>
 																	<field name="engineType">
-																		<String>Xerces</String>
+																		<String>&lt;Default engine></String>
 																	</field>
 																	<field name="allowsAutomaticValidation">
 																		<Boolean>true</Boolean>
